@@ -1,0 +1,31 @@
+{
+  "name": "dinosaur",
+  "displayName": "Dinosaur",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dinosaur",
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "dino.png",
+  "galleryBanner": {
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dinosaur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dinosaur-color-theme.json"
+      }
+    ]
+  }
+}
