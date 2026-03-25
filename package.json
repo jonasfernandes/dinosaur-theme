@@ -1,7 +1,13 @@
 {
   "name": "dinosaur",
   "displayName": "Dinosaur",
-  "description": "",
+  "description": "Theme for VS Code with nice colors and contrast",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonasfernandes/dinosaur-theme"
+  },
+  "publisher": "JonasFernandes",
+  "license": "MIT",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.76.0"
@@ -13,10 +19,14 @@
     "dinosaur",
     "dark",
     "theme",
-    "color-theme"
+    "dark-theme",
+    "color-theme",
+    "contrast",
+    "pastel"
   ],
-  "icon": "dino.png",
+  "icon": "images/dino.png",
   "galleryBanner": {
+    "color": "#424450",
     "theme": "dark"
   },
   "contributes": {
