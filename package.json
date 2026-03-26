@@ -1,14 +1,23 @@
 {
   "name": "dinosaur",
+  "version": "0.0.1",
   "displayName": "Dinosaur",
   "description": "Theme for VS Code with nice colors and contrast",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonasfernandes/dinosaur-theme"
-  },
   "publisher": "JonasFernandes",
   "license": "MIT",
-  "version": "0.0.1",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "package": "vsce package -o ./bin/dinosaur.vsix",
+    "vscode:prepublish": "npm run build",
+    "vsce-publish": "vsce publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonasfernandes/dinosaur-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonasfernandes/dinosaur-theme/issues"
+  },
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -32,10 +41,21 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dinosaur",
+        "label": "Dinosaur Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dinosaur-color-theme.json"
+        "path": "./theme/dinosaur.json"
+      },
+      {
+        "label": "Dinosaur Theme Soft",
+        "uiTheme": "vs-dark",
+        "path": "./theme/dinosaur-soft.json"
       }
     ]
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.1",
+    "prettier": "^3.0.0",
+    "tinycolor2": "^1.6.0",
+    "vsce": "^2.15.0"
   }
 }
