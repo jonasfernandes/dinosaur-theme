@@ -23,12 +23,12 @@
 1. Open the **Extensions** sidebar panel in VS Code: `Cmd+Shift+X` (macOS) or `Ctrl+Shift+X` (Windows/Linux)
 2. Search for `Dinosaur`
 3. Click **Install**
-4. Set the theme: `Cmd+K` then `Cmd+T`, and select **Dinosaur**
+4. Set the theme: `Cmd+K` then `Cmd+T`, and select **Dinosaur Theme** or **Dinosaur Theme Soft**
 
 ### Option 2: Command Palette
 
 1. Open the Command Palette: `Cmd+Shift+P` (macOS) or `Ctrl+Shift+P` (Windows/Linux)
-2. Type `ext install jonas.dinosaur` and hit Enter.
+2. Type `ext install JonasFernandes.dinosaur` and hit Enter.
 
 ## ⚙️ Recommended Settings
 
@@ -36,7 +36,7 @@ To get the absolute best experience (and to match any screenshots), we recommend
 
 ```json
 {
-  "workbench.colorTheme": "Dinosaur",
+  "workbench.colorTheme": "Dinosaur Theme",
   "editor.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
   "editor.fontLigatures": true,
   "editor.semanticHighlighting.enabled": true,
