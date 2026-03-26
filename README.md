@@ -5,8 +5,8 @@
 
   <p>
     <a href="#"><img src="https://img.shields.io/badge/VS%20Code-v1.76.0+-blue?style=for-the-badge&logo=visualstudiocode" alt="VS Code Version"></a>
-    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/v/jonas.dinosaur?style=for-the-badge&color=2ecc71&label=Marketplace" alt="VS Marketplace Version"></a>
-    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/d/jonas.dinosaur?style=for-the-badge&color=3498db" alt="Downloads"></a>
+    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/v/JonasFernandes.dinosaur?style=for-the-badge&color=2ecc71&label=Marketplace" alt="VS Marketplace Version"></a>
+    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/d/JonasFernandes.dinosaur?style=for-the-badge&color=3498db" alt="Downloads"></a>
   </p>
 </div>
 
