@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="dino.png" alt="Dinosaur Theme Logo" width="120" />
+  <img src="images/dino.png" alt="Dinosaur Theme Logo" width="120" />
   <h1>🦖 Dinosaur Theme</h1>
   <p>A beautifully crafted dark theme for VS Code with stunning colors and perfect contrast.</p>
 
