@@ -1,16 +1,62 @@
-# dinosaur README
+<div align="center">
+  <img src="dino.png" alt="Dinosaur Theme Logo" width="120" />
+  <h1>🦖 Dinosaur Theme</h1>
+  <p>A beautifully crafted dark theme for VS Code with stunning colors and perfect contrast.</p>
 
-## Working with Markdown
+  <p>
+    <a href="#"><img src="https://img.shields.io/badge/VS%20Code-v1.76.0+-blue?style=for-the-badge&logo=visualstudiocode" alt="VS Code Version"></a>
+    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/v/jonas.dinosaur?style=for-the-badge&color=2ecc71&label=Marketplace" alt="VS Marketplace Version"></a>
+    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/d/jonas.dinosaur?style=for-the-badge&color=3498db" alt="Downloads"></a>
+  </p>
+</div>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 📸 Screenshots
 
-## For more information
+![alt text](images/preview.png)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 🚀 Installation
 
-**Enjoy!**
+### Option 1: VS Code Marketplace
+
+1. Open the **Extensions** sidebar panel in VS Code: `Cmd+Shift+X` (macOS) or `Ctrl+Shift+X` (Windows/Linux)
+2. Search for `Dinosaur`
+3. Click **Install**
+4. Set the theme: `Cmd+K` then `Cmd+T`, and select **Dinosaur**
+
+### Option 2: Command Palette
+
+1. Open the Command Palette: `Cmd+Shift+P` (macOS) or `Ctrl+Shift+P` (Windows/Linux)
+2. Type `ext install jonas.dinosaur` and hit Enter.
+
+## ⚙️ Recommended Settings
+
+To get the absolute best experience (and to match any screenshots), we recommend these settings in your `settings.json`:
+
+```json
+{
+  "workbench.colorTheme": "Dinosaur",
+  "editor.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on"
+}
+```
+
+## 🤝 Contributing
+
+Found a bug, have a suggestion for improving the colors, or want to add support for a specific language?
+Feel free to open an issue or submit a pull request! Your feedback is highly appreciated.
+
+## 💖 Support
+
+If you love this theme, please consider rating it on the VS Code Marketplace. Every star helps!
+
+---
+
+<div align="center">
+  Made with ❤️ by Jonas
+</div>
