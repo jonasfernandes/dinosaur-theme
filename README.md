@@ -14,7 +14,7 @@
 
 ## 📸 Screenshots
 
-![alt text](images/preview.png)
+![preview dinosaur theme](images/preview.png)
 
 ## 🚀 Installation
 
