@@ -35,10 +35,7 @@ dinosaur:
     - &TEMP_PROPERTY_QUOTES "#2df4df"
   other:
     - &SELECTION_WIDGET "#a74d25"
-    - &LineHighlight "#ffffff0a"
-    - &NonText "#ffffff1a"
     - &WHITE "#ffffff"
-    - &TAB_DROP_BG "#3a3d4170"
     # UI Variants
     - &BGLighter "#454545"
     - &BGLight "#303031"
@@ -47,6 +44,7 @@ dinosaur:
     - &FG "#cccccc"
     - &SELECTION "#3a3d41"
     - &COMMENT "#858585"
+    - &BGHighlight "#ffffff0a"
   bg:
     - &BGDark "#1e1e2a"
     - &BG "#151521"
@@ -203,11 +201,11 @@ colors:
 
   editor.hoverHighlightBackground: "#264f7840" # Highlight below the word for which a hover is shown
 
-  editor.lineHighlightBackground: "#ffffff0a" # Background color for the highlight of line at the cursor position
+  editor.lineHighlightBackground: *BGHighlight # Background color for the highlight of line at the cursor position
   editor.lineHighlightBorder: *BGDark # Background color for the border around the line at the cursor position
 
   editorLink.activeForeground: *PURPLE # Color of active links
-  editor.rangeHighlightBackground: "#ffffff0b" # Background color of highlighted ranges, like by Quick Open and Find features
+  editor.rangeHighlightBackground: *BGHighlight # Background color of highlighted ranges, like by Quick Open and Find features
 
   editor.snippetTabstopHighlightBackground: # Highlight background color of a snippet tabstop
   editor.snippetTabstopHighlightBorder: # Highlight border color of a snippet tabstop
@@ -235,7 +233,7 @@ colors:
   editorBracketHighlight.foreground6: *GREEN # Color of sixth pair of brackets
   editorBracketHighlight.unexpectedBracket.foreground: *RED # Color of bracket matching error
 
-  editorOverviewRuler.border: "#7f7f7f4d" # Color of the overview ruler border
+  editorOverviewRuler.border: *BGHighlight # Color of the overview ruler border
   editorOverviewRuler.background: "#25252500"
 
   editorError.foreground: "#f48771" # Foreground color of error squigglies in the editor
@@ -276,17 +274,17 @@ colors:
   editorWidget.resizeBorder: "#5F5F5F" # Border color of the editor widget unless the widget does not contain a border or defines its own border color
 
   editorSuggestWidget.background: *BGDark # Background color of the suggestion widget
-  editorSuggestWidget.border: "#454545" # Border color of the suggestion widget
+  editorSuggestWidget.border: *BGLighter # Border color of the suggestion widget
   editorSuggestWidget.foreground: *FG # Foreground color of the suggestion widget
   editorSuggestWidget.highlightForeground: *PINK # Color of the match highlights in the suggestion widget
   editorSuggestWidget.selectedBackground: *SELECTION # Background color of the selected entry in the suggestion widget
 
   editorHoverWidget.background: *BG # Background color of the editor hover
   editorHoverWidget.foreground: *FG # Foreground color of the editor hover
-  editorHoverWidget.border: "#454545" # Border color of the editor hover
+  editorHoverWidget.border: *BGLighter # Border color of the editor hover
 
   debugExceptionWidget.background: *BGDark # Exception widget background color
-  debugExceptionWidget.border: "#454545" # Exception widget border color
+  debugExceptionWidget.border: *BGLighter # Exception widget border color
 
   editorMarkerNavigation.background: *BGDark # Editor marker navigation widget background
   editorMarkerNavigationError.background: "#f48771" # Editor marker navigation widget error color
