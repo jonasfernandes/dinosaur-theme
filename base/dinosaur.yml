@@ -5,10 +5,6 @@ semanticClass: theme.dinosaur
 semanticHighlighting: true
 dinosaur:
   base:
-    - &BG "#151521"
-    - &FG "#cccccc"
-    - &SELECTION "#3a3d41"
-    - &COMMENT "#858585"
     - &CYAN "#2df4df"
     - &GREEN "#6ef79f"
     - &ORANGE "#ffb86c"
@@ -44,13 +40,18 @@ dinosaur:
     - &WHITE "#ffffff"
     - &TAB_DROP_BG "#3a3d4170"
     # UI Variants
-    - &FGLight "#ededed"
     - &BGLighter "#454545"
     - &BGLight "#303031"
+  fg:
+    - &FGLight "#ededed"
+    - &FG "#cccccc"
+    - &SELECTION "#3a3d41"
+    - &COMMENT "#858585"
+  bg:
     - &BGDark "#1e1e2a"
-    - &BGDarker "#151521"
+    - &BG "#151521"
+    # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 
-# User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
   # Integrated Terminal Colors
   terminal.background: *BG

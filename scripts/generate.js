@@ -16,6 +16,7 @@ const transformSoft = (theme) => {
   const brightColors = [...soft.dinosaur.ansi, ...soft.dinosaur.brightOther];
   const baseColors = [...soft.dinosaur.base];
   const otherColors = [...soft.dinosaur.other];
+  const bgColors = [...soft.dinosaur.bg];
 
   for (const key of Object.keys(soft.colors)) {
     const color = soft.colors[key];
@@ -25,6 +26,10 @@ const transformSoft = (theme) => {
       otherColors.includes(color)
     ) {
       soft.colors[key] = tinycolor(color).desaturate(20).toHexString();
+    }
+
+    if (bgColors.includes(color)) {
+      soft.colors[key] = tinycolor(color).brighten(2).toHexString();
     }
   }
   soft.tokenColors = soft.tokenColors.map((value) => {
