@@ -4,9 +4,9 @@
   <p>A beautifully crafted dark theme for VS Code with stunning colors and perfect contrast.</p>
 
   <p>
-    <a href="#"><img src="https://img.shields.io/badge/VS%20Code-v1.76.0+-blue?style=for-the-badge&logo=visualstudiocode" alt="VS Code Version"></a>
-    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/v/JonasFernandes.dinosaur?style=for-the-badge&color=2ecc71&label=Marketplace" alt="VS Marketplace Version"></a>
-    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/d/JonasFernandes.dinosaur?style=for-the-badge&color=3498db" alt="Downloads"></a>
+    <a href="https://code.visualstudio.com/download"><img src="https://img.shields.io/badge/VS%20Code-v1.76.0+-blue?style=for-the-badge&logo=visualstudiocode" alt="VS Code Version"></a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=jonasfernandes.dinosaur&ssr=false#overview"><img src="https://img.shields.io/visual-studio-marketplace/v/jonasfernandes.dinosaur?style=for-the-badge&color=2ecc71&label=Marketplace" alt="VS Marketplace Version"></a>
+    <a href="#"><img src="https://img.shields.io/visual-studio-marketplace/d/jonasfernandes.dinosaur?style=for-the-badge&color=3498db" alt="Downloads"></a>
   </p>
 </div>
 
@@ -28,7 +28,7 @@
 ### Option 2: Command Palette
 
 1. Open the Command Palette: `Cmd+Shift+P` (macOS) or `Ctrl+Shift+P` (Windows/Linux)
-2. Type `ext install JonasFernandes.dinosaur` and hit Enter.
+2. Type `ext install jonasfernandes.dinosaur` and hit Enter.
 
 ## ⚙️ Recommended Settings
 
